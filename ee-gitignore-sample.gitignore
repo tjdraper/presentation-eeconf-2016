@@ -1,0 +1,22 @@
+# System caches
+system/user/cache/*
+
+# Local dev database file
+system/user/config/config.local.php
+
+# Custom upload directories
+public/uploads/**/*.*
+
+# Images
+public/images/avatars/*
+public/images/captchas/*
+public/images/forum_attachments/*
+public/images/member_photos/*
+public/images/pm_attachments/*
+public/images/signature_attachments/*
+public/images/sized/*
+public/images/smileys/*
+public/images/uploads/*
+
+# Make sure .gitkeep files are commited
+!.gitkeep
