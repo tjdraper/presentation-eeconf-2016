@@ -18,11 +18,11 @@ You will find the links and resources in the `resources.html` file. Just open it
 
 ### gitignore
 
-The gitignore sample I references in my presentation is in this repo at `ee-gitignore-sample.gitignore`.
+The gitignore sample I referenced in my presentation is in this repo at `ee-gitignore-sample.gitignore`.
 
 ### Staging Sync Script
 
-The staging sync script I referenced is `exampleStaginSync.sh`.
+The staging sync script I referenced is `exampleStagingSync.sh`.
 
 ### Multi Environment Config Example
 
