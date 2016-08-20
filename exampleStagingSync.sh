@@ -5,7 +5,7 @@
 # local vagrant environement. It should be run from the shell in your vagrant
 # environment (vagrant ssh)
 #
-# Usage: $ ./localSync.sh
+# Usage: $ ./exampleStagingSync.sh
 #
 
 
