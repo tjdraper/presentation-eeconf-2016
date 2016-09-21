@@ -2,19 +2,19 @@
 
 This repository is the companion for the presentation I gave on GitFlow at ExpressionEngine conference, 2016. You will find all my slides, as well as some resources and examples.
 
-## How to use
+## Resources and links
 
-First you will need to clone this repository to your local computer.
+All the resources and links for the presentation can be found at:
+
+https://tjdraper.github.io/presentation-eeconf-2016
 
 ### Slides
 
-If you would like to view the slides in a nice HTML environment with clickable arrows and/or keyboard arrow navigation, open `index.html` in your browser.
+You can view the slides for the presentaiton in one of the following ways:
 
-You can access the slide images directly in the `slides` directory.
-
-### Resources
-
-You will find the links and resources in the `resources.html` file. Just open it in your browser to access the links.
+1. Go to https://tjdraper.github.io/presentation-eeconf-2016/presentation-slides.html where you can use your keyboard or click to navigate through the slides
+2. Clone this repo and open `presentation-slides.html` in your browser.
+3. Download 1 or more slides in the `slides` directory in this repo.
 
 ### gitignore
 
