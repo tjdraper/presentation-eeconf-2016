@@ -16,19 +16,22 @@
 	# Set Variables
 #---------------------------------------
 
+# Get staging DB password
+source /home/vagrant/development/scripts/localSyncStagingCreds.sh;
+
 # Project variables
-LOCAL_DB_HOST='127.0.0.1';
+LOCAL_DB_HOST="127.0.0.1";
 LOCAL_DB_USER="homestead";
 LOCAL_DB_PASS="secret";
 LOCAL_DB_NAME="homestead"
 LOCAL_PROJECT_PATH="/home/vagrant/development";
 
-BACKUP_DIR=$LOCAL_PROJECT_PATH'/backups/';
-STAGING_HOST='STAGING_HOST_HERE';
-STAGING_DB_USER='STAGING_DB_USER_HERE';
-STAGING_DB_PASS='STAGING_DB_PASSWORD_HERE';
-STAGING_DB_NAME='DB_NAME_HERE';
-STAGING_DIR='staging.site.com';
+BACKUP_DIR=$LOCAL_PROJECT_PATH"/backups/";
+STAGING_HOST="STAGING_HOST_HERE";
+STAGING_DB_USER="STAGING_DB_USER_HERE";
+STAGING_DB_PASS=$stagingDbPass;
+STAGING_DB_NAME="DB_NAME_HERE";
+STAGING_DIR="staging.site.com";
 
 # Colors
 GREEN=`tput setaf 2`;
